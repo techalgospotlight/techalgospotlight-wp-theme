@@ -1,0 +1,68 @@
+#customize-controls #accordion-section-techalgospotlight_section_techalgospotlight_pro {
+    margin: 0 0 0 0;
+    padding: 30px 26px 15px 26px;
+    border-bottom: 1px solid #ddd;;
+    border-top: none;
+}
+
+#customize-controls #accordion-section-techalgospotlight_section_techalgospotlight_pro>h3.accordion-section-title {
+    color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+    line-height: 30px;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid #2271b1;
+    min-height: 30px;
+    text-align: center;
+}
+
+#customize-controls #accordion-section-techalgospotlight_section_techalgospotlight_pro>h3.accordion-section-title::after {
+    display: none;
+}
+
+#accordion-section-techalgospotlight_section_techalgospotlight_pro .accordion-section-title::before {
+    content: "\f487";
+    font-family: dashicons;
+    font-size: 9px;
+    margin-right: 3px;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+.upsell-btn {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.upsell-btn .btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.upsell-btn>.btn-success {
+    color: #fff;
+    background-color: #2271b1;
+    border-color: #2271b1;
+}
+
+.upsell-btn>.btn-success:hover {
+    color: #fff;
+    background-color: #0085ba;
+    border-color: #0085ba;
+}
+
+.upsell-btn>.btn-lg {
+    padding: 10px 15px;
+    font-size: 17px;
+    line-height: 1.33;
+    border-radius: 6px;
+}

@@ -1,0 +1,363 @@
+/*****************************************/
+/* Right-to-left language support
+/*****************************************/
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+.rtl .screen-reader-text:focus {
+    left: auto;
+    right: 5px;
+}
+
+.rtl .techalgospotlight-entry .wp-block-quote, .rtl blockquote {
+    border-left-style: none;
+    border-right-style: solid;
+    padding-right: 3rem;
+    padding-left: 5rem;
+    background-position: 3% 90%;
+}
+
+.rtl .techalgospotlight-entry ol,
+.rtl .techalgospotlight-entry ul:not(.wp-block-latest-posts) {
+    margin-left: 0;
+    margin-right: 4rem;
+}
+
+.rtl .menu-item-custom-more i {
+    margin-right: .4rem;
+}
+
+.rtl #techalgospotlight-topbar .techalgospotlight-topbar-widget__text .techalgospotlight-icon {
+    margin: 0 0 0 0.7rem;
+}
+
+.rtl #techalgospotlight-header-inner .techalgospotlight-nav>ul>li {
+    margin-left: 1.6rem;
+}
+
+.rtl .techalgospotlight-nav>ul>li:first-child,
+.rtl .techalgospotlight-nav>ul>li:first-of-type {
+    margin-left: 1.6rem !important;
+}
+
+.rtl.techalgospotlight-header-layout-2 .techalgospotlight-header-container .techalgospotlight-logo {
+    margin-right: 0;
+    margin-left: 3.2rem;
+}
+
+.rtl.techalgospotlight-header-layout-2.techalgospotlight-is-mobile .techalgospotlight-header-container .techalgospotlight-logo,
+.rtl.techalgospotlight-header-layout-1 .techalgospotlight-header-container .techalgospotlight-logo,
+.rtl.techalgospotlight-header-layout-6 .techalgospotlight-logo-container .techalgospotlight-logo,
+.rtl.techalgospotlight-header-layout-4 .techalgospotlight-logo-container .techalgospotlight-logo {
+    margin-left: auto;
+    margin-right: unset;
+}
+
+.rtl.techalgospotlight-header-layout-6 #techalgospotlight-header-inner .techalgospotlight-nav>ul>li:last-child,
+.rtl.techalgospotlight-header-layout-4 #techalgospotlight-header-inner .techalgospotlight-nav>ul>li:last-child {
+    margin-left: 0 !important;
+}
+
+.rtl .techalgospotlight-social-nav.rounded>ul>li>a {
+    margin-right: 0.8rem;
+}
+
+.rtl .techalgospotlight-social-nav.rounded>ul>li:first-child>a {
+    margin-right: 0;
+}
+
+.rtl .techalgospotlight-social-nav.rounded-border>ul>li:first-of-type>a>span:not(.screen-reader-text),
+.rtl .techalgospotlight-social-nav.rounded-fill>ul>li:first-of-type>a>span:not(.screen-reader-text) {
+    margin-right: 0;
+}
+
+.rtl .techalgospotlight-header-element>.techalgospotlight-header-widget:first-child {
+    margin-left: 0;
+}
+
+.rtl .techalgospotlight-header-element>.techalgospotlight-header-widget.techalgospotlight-header-widget__image {
+    padding-left: 0;
+}
+
+.rtl.techalgospotlight-header-layout-6 .techalgospotlight-widget-location-right .techalgospotlight-header-widget:last-of-type,
+.rtl.techalgospotlight-header-layout-4 .techalgospotlight-widget-location-right .techalgospotlight-header-widget:last-of-type {
+    padding-left: 0;
+}
+
+.rtl.techalgospotlight-header-layout-6 .techalgospotlight-widget-location-left .techalgospotlight-header-widget:first-of-type {
+    padding-right: 0;
+}
+
+.rtl.techalgospotlight-header-layout-6 .techalgospotlight-nav-container .techalgospotlight-widget-location-left .techalgospotlight-header-widget:first-child,
+.rtl.techalgospotlight-header-layout-4 .techalgospotlight-nav-container .techalgospotlight-widget-location-left .techalgospotlight-header-widget:first-child {
+    padding-left: 0.4rem;
+}
+
+.rtl .ticker-slider-box {
+    padding: 5px;
+}
+
+.rtl .ticker-slider-controls.techalgospotlight-swiper-buttons {
+    flex-direction: row-reverse;
+}
+
+.rtl .author-avatar img {
+    margin-left: 0.8rem;
+    margin-right: 0;
+}
+
+.rtl .entry-meta .techalgospotlight-icon {
+    margin-left: 0.7rem;
+    margin-right: 0;
+}
+
+.rtl .entry-meta .entry-meta-elements>span:last-child {
+    padding-right: 1.1rem;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.rtl .entry-meta .entry-meta-elements>span:before {
+    right: -0.75rem;
+}
+
+.rtl.techalgospotlight-blog-horizontal .techalgospotlight-article .entry-meta .entry-meta-elements>span:first-child,
+.rtl.techalgospotlight-blog-layout-1 .techalgospotlight-article .entry-meta span:first-child {
+    padding-left: 0.5rem !important;
+    padding-right: 0 !important;
+}
+
+.rtl #pyml .techalgospotlight-card-items .techalgospotlight-swiper-buttons .swiper-button-prev,
+.rtl #pyml .techalgospotlight-card-items .techalgospotlight-swiper-buttons .swiper-button-next {
+    --swiper-navigation-sides-offset: -4rem;
+}
+
+.rtl.techalgospotlight-sidebar-style-2 #pyml .pyml-slider-items .widget-title::before {
+    right: 2rem;
+}
+
+.rtl.techalgospotlight-sidebar-style-2 #pyml .pyml-slider-items .widget-title::after {
+    right: 9rem;
+}
+
+.rtl .techalgospotlight-card-items .techalgospotlight-swiper-buttons {
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+}
+
+.rtl #pyml .techalgospotlight-card-items .techalgospotlight-swiper-buttons {
+    padding-left: 0;
+    padding-right: 1.6rem;
+}
+
+.rtl .hester-posts-list-widget-init-s1 .hester-posts-list-widget-thumb {
+    margin-right: 0;
+    margin-left: 1.8rem;
+}
+
+.rtl .hester-posts-list-widget-categories .techalgospotlight-icon,
+.rtl .hester-posts-list-widget-meta .techalgospotlight-icon,
+.rtl .hester-posts-list-widget-categories .hester-icon,
+.rtl .hester-posts-list-widget-meta .hester-icon {
+    margin-right: 0;
+    margin-left: 0.6rem;
+}
+
+.rtl.is-footer-heading-init-s1 #colophon .wp-block-heading::before,
+.rtl.is-footer-heading-init-s1 #colophon .widget-title::before {
+    right: 0;
+    left: 0;
+}
+
+.rtl.is-footer-heading-init-s1 #colophon .wp-block-heading::after,
+.rtl.is-footer-heading-init-s1 #colophon .widget-title::after {
+    right: 7rem;
+    left: 0;
+}
+
+.rtl.is-section-heading-init-s3 .techalgospotlight-card-items .widget-title::after,
+.rtl.is-section-heading-init-s3 #secondary .wp-block-search .wp-block-search__label::after,
+.rtl.is-section-heading-init-s3 #secondary .wp-block-heading::after,
+.rtl.is-section-heading-init-s3 #secondary .widget-title::after,
+.rtl.is-footer-heading-init-s3 #colophon .wp-block-search .wp-block-search__label::after,
+.rtl.is-footer-heading-init-s3 #colophon .wp-block-heading::after,
+.rtl.is-footer-heading-init-s3 #colophon .widget-title::after {
+    right: 0;
+    left: unset;
+}
+
+.rtl.techalgospotlight-sidebar-style-2 .pyml-slider-items .widget-title::before,
+.rtl.techalgospotlight-sidebar-style-2 #secondary .wp-block-search .wp-block-search__label::before,
+.rtl.techalgospotlight-sidebar-style-2 #secondary .wp-block-heading::before,
+.rtl.techalgospotlight-sidebar-style-2 #secondary .widget-title::before {
+    right: 2.5rem;
+    left: 0;
+}
+
+.rtl.techalgospotlight-sidebar-style-2 .pyml-slider-items .widget-title::after,
+.rtl.techalgospotlight-sidebar-style-2 #secondary .wp-block-search .wp-block-search__label::after,
+.rtl.techalgospotlight-sidebar-style-2 #secondary .wp-block-heading::after,
+.rtl.techalgospotlight-sidebar-style-2 #secondary .widget-title::after {
+    right: 9.5rem;
+    left: 0;
+}
+
+.rtl .techalgospotlight-vertical-slider .techalgospotlight-entry-content-wrapper .techalgospotlight-btn.btn-text-1::after,
+.rtl .techalgospotlight-horizontal-slider .techalgospotlight-entry-content-wrapper .techalgospotlight-btn.btn-text-1::after {
+    margin-left: 0;
+    margin-right: 0.8rem;
+    margin-top: 0.1rem;
+    transform: rotate(180deg);
+}
+
+.rtl .navigation .nav-links .right-arrow svg {
+    transform: rotate(0deg);
+}
+
+.rtl .navigation .nav-links .left-arrow svg {
+    transform: rotate(180deg);
+}
+
+.rtl .techalgospotlight-header-widgets .techalgospotlight-search-simple {
+    right: unset;
+    left: -1.5rem;
+}
+
+.rtl .techalgospotlight-header-widgets .techalgospotlight-search-simple:after {
+    right: unset;
+    left: 1.6rem;
+}
+
+.rtl .techalgospotlight-header-widgets .techalgospotlight-search-simple .techalgospotlight-search-form input {
+    padding: 1.6rem 2rem 1.6rem 4.5rem;
+}
+
+.rtl .techalgospotlight-header-widgets .techalgospotlight-search-simple button:not(.techalgospotlight-search-close) {
+    right: unset;
+    left: 5.6rem;
+}
+
+.rtl .techalgospotlight-header-widgets .techalgospotlight-search-simple .techalgospotlight-search-close {
+    right: unset;
+    left: 1.6rem;
+}
+
+.rtl .widget.widget_block ul:not(.submenu-container, .wp-block-social-links, .wp-block-latest-posts__list)>li>a:hover::before,
+.rtl.using-keyboard .widget.widget_block ul:not(.submenu-container, .wp-block-social-links, .wp-block-latest-posts__list)>li>a:focus::before,
+.rtl .widget.widget_archive ul:not(.children)>li>a:hover::before,
+.rtl.using-keyboard .widget.widget_archive ul:not(.children)>li>a:focus::before,
+.rtl .widget.widget_categories ul:not(.children)>li>a:hover::before,
+.rtl.using-keyboard .widget.widget_categories ul:not(.children)>li>a:focus::before,
+.rtl .widget.widget.widget_pages ul:not(.sub-menu)>li>a:hover::before,
+.rtl.using-keyboard .widget.widget.widget_pages ul:not(.sub-menu)>li>a:focus::before,
+.rtl .widget.widget_nav_menu ul:not(.sub-menu)>li>a:hover::before,
+.rtl.using-keyboard .widget.widget_nav_menu ul:not(.sub-menu)>li>a:focus::before {
+    margin-right: 0;
+    margin-left: 1.2rem;
+}
+
+.rtl .techalgospotlight-nav .sub-menu a {
+    text-align: end;
+}
+
+.rtl .techalgospotlight-nav .menu-item-has-children>a>.techalgospotlight-icon,
+.rtl .techalgospotlight-nav .page_item_has_children>a>.techalgospotlight-icon {
+    margin-left: 0;
+    margin-right: 0.4rem;
+}
+
+@media screen and (max-width: 960px) {
+    .rtl .techalgospotlight-mobile-toggen .techalgospotlight-icon {
+        right: unset;
+        left: 0;
+    }
+    .rtl #techalgospotlight-header-inner .techalgospotlight-nav .menu-item-has-children>a > span,
+    .rtl #techalgospotlight-header-inner .techalgospotlight-nav .page_item_has_children>a > span {
+        border-right: none;
+        border-left: 1px solid rgba(185, 185, 185, 0.4);
+    }
+}
+
+@media only screen and (min-width: 869px) {
+    .rtl.techalgospotlight-blog-horizontal .techalgospotlight-article:not(.format-quote) .techalgospotlight-blog-entry-wrapper.techalgospotlight-thumb-right .entry-media {
+        margin-left: 0;
+        margin-right: 3rem;
+    }
+
+    .rtl.techalgospotlight-blog-horizontal .techalgospotlight-article:not(.format-quote) .techalgospotlight-blog-entry-wrapper.techalgospotlight-thumb-left .entry-media {
+        margin-right: 0;
+        margin-left: 3rem;
+    }
+
+    .rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-blog-image-wrap .techalgospotlight-blog-horizontal .techalgospotlight-article:not(.format-quote) .techalgospotlight-blog-entry-wrapper.techalgospotlight-thumb-left .entry-media,
+    .rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-blog-image-wrap.techalgospotlight-blog-horizontal .techalgospotlight-article:not(.format-quote) .techalgospotlight-blog-entry-wrapper.techalgospotlight-thumb-left .entry-media {
+        margin-left: 3rem;
+        margin-right: -6rem;
+    }
+
+    .rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-blog-image-wrap:not(.single-post) .techalgospotlight-blog-horizontal .techalgospotlight-article.format-video:not(.format-quote),
+    .rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-blog-image-wrap.techalgospotlight-blog-horizontal:not(.single-post) .techalgospotlight-article.format-video:not(.format-quote),
+    .rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-blog-image-wrap .techalgospotlight-blog-horizontal .techalgospotlight-article:not(.format-quote, .no-entry-media),
+    .rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-blog-image-wrap.techalgospotlight-blog-horizontal .techalgospotlight-article:not(.format-quote, .no-entry-media) {
+        margin-left: 0;
+        margin-right: 3rem;
+    }
+
+    .rtl.bloglamp:not(.techalgospotlight-blog-horizontal-wrap) .techalgospotlight-article.has-post-thumbnail:not(.format-quote) .entry-media,
+    .rtl.bloglamp:not(.techalgospotlight-blog-horizontal-wrap) .techalgospotlight-article .entry-media {
+        border-radius: 0 var(--techalgospotlight-radius) var(--techalgospotlight-radius) 0;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .rtl .techalgospotlight-mobile-nav {
+        margin-left: 0;
+        margin-right: 1.6rem;
+    }
+}
+
+@media (min-width: 36em) {
+    .rtl.techalgospotlight-blog-horizontal-wrap .techalgospotlight-article:not(.format-quote) .techalgospotlight-blog-entry-wrapper .entry-media {
+        margin-right: auto;
+    }
+}
+
+.rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-sidebar-position__right-sidebar #primary {
+    padding-right: 0;
+    padding-left: 5rem;
+}
+
+.rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-sidebar-position__right-sidebar.techalgospotlight-sidebar-style-2 #primary {
+    padding-right: 0;
+    padding-left: 3rem;
+}
+
+.rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-sidebar-position__left-sidebar #primary {
+    padding-left: 0;
+    padding-right: 5rem;
+}
+
+.rtl.techalgospotlight-layout__boxed-separated.techalgospotlight-sidebar-position__left-sidebar.techalgospotlight-sidebar-style-2 #primary {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+
+.rtl.techalgospotlight-has-comments-toggle #techalgospotlight-comments-toggle .techalgospotlight-icon {
+    margin-left: 0.8rem;
+    margin-right: 0;
+}
+
+.rtl #hero-search .search-form .search-submit,
+.rtl #colophon .search-form .search-submit,
+.rtl #main .search-form .search-submit {
+    left: 0.8rem;
+    right: unset;
+}
+
+.rtl .techalgospotlight-live-search-container .wrapper .close {
+    left: 10px;
+    right: unset;
+}

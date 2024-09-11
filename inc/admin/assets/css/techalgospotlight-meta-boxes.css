@@ -1,0 +1,88 @@
+/* ==========================================================================
+*  techalgospotlight Meta Box Styles.
+*  ========================================================================== */
+#side-sortables .techalgospotlight-meta-box-field {
+  margin: 15px 0;
+}
+
+#side-sortables .techalgospotlight-meta-box-field select {
+  min-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#side-sortables .techalgospotlight-meta-box-field:last-child {
+  margin-bottom: 0;
+}
+
+#side-sortables .techalgospotlight-checkbox-row {
+  margin-top: 0;
+  --checkbox-input-size: 16px;
+  line-height: 1.2;
+}
+
+#side-sortables .techalgospotlight-checkbox-row .techalgospotlight-checkbox-wrapper .techalgospotlight-checked-icon {
+  display: none;
+  left: 50%;
+  top: 50%;
+  fill: #FFF;
+  cursor: pointer;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+#side-sortables .techalgospotlight-checkbox-row input[type='checkbox'] {
+  border: 1px solid #1e1e1e;
+  border-radius: 2px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+#side-sortables .techalgospotlight-checkbox-row input[type='checkbox']:checked {
+  background: #007cba;
+  background: var(--wp-admin-theme-color);
+  border-color: #007cba;
+  border-color: var(--wp-admin-theme-color);
+}
+
+#side-sortables .techalgospotlight-checkbox-row input[type='checkbox']:checked + .techalgospotlight-checked-icon {
+  display: none;
+}
+
+.block-editor-page #side-sortables .techalgospotlight-meta-box-field input[type='checkbox'] + .techalgospotlight-checked-icon {
+  display: block;
+}
+
+.block-editor-page #side-sortables .techalgospotlight-meta-box-field .techalgospotlight-checkbox-row {
+  min-height: 30px;
+}
+
+body:not(.block-editor-page) #side-sortables .techalgospotlight-meta-box-field .components-base-control__label {
+  display: block;
+  font-weight: 600;
+}
+
+body:not(.block-editor-page) #side-sortables .techalgospotlight-meta-box-field input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+body:not(.block-editor-page) #side-sortables .techalgospotlight-meta-box-field .techalgospotlight-checkbox-row {
+  min-height: 26px;
+}
+
+body:not(.block-editor-page) #side-sortables .techalgospotlight-meta-box-field .techalgospotlight-checkbox-row .components-base-control__field {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

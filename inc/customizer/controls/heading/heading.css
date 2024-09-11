@@ -1,0 +1,103 @@
+/*****************************************/
+/* Customizer control heading style
+/*****************************************/
+/**
+ * Import configuration file with variables.
+ */
+#customize-controls .customize-control.customize-control-techalgospotlight-heading:after {
+  margin-top: 1px;
+}
+
+#customize-controls .customize-control.customize-control-techalgospotlight-heading .techalgospotlight-heading-top-space {
+  height: 12px;
+  margin: -17px -12px 0 -12px;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+
+.techalgospotlight-heading-wrapper {
+  position: relative;
+  -js-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  color: #555d66;
+  margin: -16px -12px -2px -12px;
+  padding: 14px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.techalgospotlight-heading-wrapper.sub-heading {
+  margin-top: -6px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #777;
+  border-bottom: none;
+}
+
+.techalgospotlight-heading-wrapper.sub-heading:after {
+  display: none;
+}
+
+.techalgospotlight-heading-wrapper.toggle-heading:hover {
+  cursor: pointer;
+}
+
+.techalgospotlight-heading-wrapper.toggle-heading:hover .techalgospotlight-heading-toggle label {
+  background-color: #f0f0f0;
+}
+
+.techalgospotlight-heading-wrapper.toggle-heading:hover .techalgospotlight-heading-toggle label:before {
+  color: #000;
+}
+
+.techalgospotlight-heading-wrapper.top-spacer {
+  margin-top: 0;
+}
+
+.techalgospotlight-heading-wrapper .techalgospotlight-control-heading {
+  margin-right: auto;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.techalgospotlight-heading-wrapper .techalgospotlight-heading-toggle label {
+  pointer-events: none;
+  margin-left: 6px;
+  -js-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.techalgospotlight-heading-wrapper .techalgospotlight-heading-toggle label:before {
+  content: "\f140";
+  display: block;
+  padding: 1px 2px 1px 0px;
+  speak: none;
+  border-radius: 50%;
+  color: #72777c;
+  font: normal 20px/1 dashicons;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none !important;
+}
+
+.techalgospotlight-heading-wrapper .techalgospotlight-heading-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.techalgospotlight-heading-wrapper .techalgospotlight-heading-toggle input[type="checkbox"]:checked + label {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
